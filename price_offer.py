@@ -34,6 +34,7 @@ class Price_Offer:
         self.number_of_batteries = number_of_batteries
         self.backup_system = backup_system
         self.provider = provider
+        self.sample_value = 0
 
     def __str__(self):
         # Function for outputting string-based description of the object
@@ -148,5 +149,5 @@ arajanlat = Price_Offer(panel_type= "Longi Solar 405Wp mono, PERC technológiás
                         inverter_type= "SUN2000-8KTL-M1 (3 fázis)", number_of_inverters=1, plomba = True,
                         roof_type = "cseréptetőhöz", number_of_fireproof_switches= 2, smart_meter = True,
                         charge_controller= True, number_of_batteries= 3, backup_system= True, provider= "Elmű-Émász")
-print(arajanlat)
-print(Price_Offer.solar_panel_text(arajanlat))
+
+new_lines = "blablabla"
