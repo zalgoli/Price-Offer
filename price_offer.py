@@ -34,7 +34,7 @@ class Price_Offer:
         self.number_of_batteries = number_of_batteries
         self.backup_system = backup_system
         self.provider = provider
-        self.sample_value = 0
+
 
     def __str__(self):
         # Function for outputting string-based description of the object
