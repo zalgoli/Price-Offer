@@ -50,6 +50,7 @@ Inverter text: {self.inverter_text()}
 Mount text: {self.mount_text()}
 Cabling text: {self.cabling_text()}
 Batteries text: {self.batteries_text()}
+Test Over
         """
 
     def panel_price(self):
@@ -150,4 +151,4 @@ arajanlat = Price_Offer(panel_type= "Longi Solar 405Wp mono, PERC technológiás
                         roof_type = "cseréptetőhöz", number_of_fireproof_switches= 2, smart_meter = True,
                         charge_controller= True, number_of_batteries= 3, backup_system= True, provider= "Elmű-Émász")
 
-new_lines = "blablabla"
+print("Testing Cycle Over")
